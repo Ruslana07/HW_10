@@ -1,0 +1,16 @@
+    9  6.6.2024 19:29  git commit -m "Add text_ignore.txtto .gitignore"
+   10  6.6.2024 19:30  touch main_test.txt
+   11  6.6.2024 19:30  git add .
+   12  6.6.2024 19:30  git commit -m "Add main_test.txt"
+   13  6.6.2024 19:31  git checkout -b develop
+   14  6.6.2024 19:32  touch develop_test.txt
+   15  6.6.2024 19:32  git add .
+   16  6.6.2024 19:33  git commit -m "Add develop_test.txt file"
+   17  6.6.2024 19:33  vim develop_test.txt
+   18  6.6.2024 19:34  git status
+   19  6.6.2024 19:34  git add develop_test.txt
+   20  6.6.2024 19:35  git commit -m "Update develop_test.txt with new changes"
+   21  6.6.2024 19:36  git checkout main
+   22  6.6.2024 19:37  git merge develop
+   23  6.6.2024 19:37  git commit -m "Merge develop into main"
+   24  6.6.2024 19:37  git log
